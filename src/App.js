@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import Navigation from './components/Navigation';
+import NexGeneration from './components/NextGeneration';
+import WhoChoose from './components/WhoChoose';
+import LatestArticles from './components/LatesArticles';
+//import { createPortal } from 'react-dom';
+import Contacts from './components/Contacts';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <NexGeneration />
+      <WhoChoose />
+      <LatestArticles />
+      <Contacts />
     </div>
   );
 }
