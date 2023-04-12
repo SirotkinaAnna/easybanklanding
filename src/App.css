@@ -2,6 +2,7 @@ html {
   font-family: 'Public Sans', sans-serif;
 }
 
+
 nav,
 .who-choose,
 .latest,
@@ -21,7 +22,35 @@ p {
   border: 1px solid black;
 } */
 
+
+.bg-gradient {
+  z-index: 40;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  top: 10%;
+
+  background-color: linear-gradient(0deg, rgba(104, 204, 201, 1) 0%, rgba(3, 1, 42, 1) 100%);
+}
+
+.modal-inside {
+  top: 13%;
+  left: 5%;
+  background-color: white;
+  width: 90%;
+  z-index: 90;
+  text-align: center;
+
+}
+
+.modal-container {
+  color: black;
+}
+
 nav {
+  position: absolute;
+  width: 100%;
   background-color: white;
 
   padding-right: 10%;
@@ -126,6 +155,14 @@ nav p {
   margin: 0;
 }
 
+.myFooter {
+  font-size: smaller;
+}
+
+.three-bar {
+  cursor: pointer;
+}
+
 nav p:hover {
 
   border: 3px solid;
@@ -155,6 +192,7 @@ nav p:hover {
     margin: 0;
   }
 
+
   nav,
   .who-choose,
   .latest,
@@ -174,7 +212,7 @@ nav p:hover {
   .my-img img {
     width: 60%;
     height: 450px;
-    margin-top: -21%;
+    margin-top: -11%;
     margin-left: 40%;
     overflow: hidden;
   }
@@ -205,7 +243,7 @@ nav p:hover {
   .my-bg {
     background: url('./images/bg-intro-mobile.svg');
     background-size: cover;
-    height: 325px;
+    height: 425px;
   }
 
   nav {

@@ -1,7 +1,10 @@
 import logo from "../images/logo.svg"
 import Button from "./Button";
 import { GoThreeBars } from "react-icons/go";
-function Navigation() {
+import { AiOutlineClose } from "react-icons/ai";
+
+function Navigation({ showModal, handleButtonClick }) {
+
 
     return <nav className="">
 
@@ -17,10 +20,12 @@ function Navigation() {
                     <p>Blog</p>
                     <p>Careers</p>
                 </div>
-                <div className="d-md-none fs-2"><GoThreeBars /></div>
+                <div className="d-md-none fs-2 three-bar" onClick={handleButtonClick}>
+                    {showModal ? <AiOutlineClose /> : <GoThreeBars />}</div>
             </div>
             <div className="d-none col-md-2 d-md-flex align-items-end p-0 m-0">
                 <Button />
+
             </div>
         </div>
 

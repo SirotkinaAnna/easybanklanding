@@ -52,6 +52,7 @@ function Contacts() {
                     <div className="mt-3 mt-md-auto"><p className="text-muted text-end ">&copy; Easybank. All Rights Reserved</p></div>
                 </div>
             </div>
+            <div className="myFooter">Challenge by Frontend Mentor. Coded by <a href="https://github.com/SirotkinaAnna">Anna Sirotkina</a>.</div>
         </footer>,
         document.body)
 }
