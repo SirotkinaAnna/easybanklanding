@@ -4,7 +4,7 @@ import simpleBudgeting from '../images/icon-budgeting.svg'
 import onBoarding from '../images/icon-onboarding.svg'
 import openApi from "../images/icon-api.svg"
 function WhoChoose() {
-    const chooseClass = "card-img-top w-50 mb-4"
+    const chooseClass = "card-img-top w-25 mb-4"
     return <div className="who-choose py-5">
         <div className="inside-topic">
             <h2>
