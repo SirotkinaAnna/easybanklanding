@@ -5,7 +5,7 @@ import onBoarding from '../images/icon-onboarding.svg'
 import openApi from "../images/icon-api.svg"
 function WhoChoose() {
     const chooseClass = "card-img-top w-25 mb-4"
-    return <div className="who-choose py-5">
+    return <div className="who-choose py-5" role="article">
         <div className="inside-topic">
             <h2>
                 Why choose Easybank?

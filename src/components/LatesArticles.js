@@ -5,7 +5,7 @@ import imgConffetti from "../images/image-confetti.jpg"
 import CardInfo from './CardInfo'
 function LatestArticles() {
     const myClass = "card-img-top h-50"
-    return <div className="latest">
+    return <div className="latest" role="presentation">
         <h2 className='pt-5'>Latest Articles</h2>
         <div className='row pb-5'>
             <CardInfo src={imgMoney} myClass={myClass} author="By Claire Robinson" title="Receive money in any currency with no fees">The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single …</CardInfo>

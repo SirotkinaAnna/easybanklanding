@@ -1,7 +1,7 @@
 import phone from '../images/image-mockups.png'
 import Button from './Button';
 function NexGeneration() {
-    return <div className="nexDiv ">
+    return <div className="nexDiv " role="definition">
         <div className="row next-row m-0 p-0">
             <div className="col-md-5 order-2 order-md-1 d-block py-0 m-auto align-items-center py-4" >
                 <div className="inside-div d-flex flex-column align-items-center align-items-md-start">  <h1 className=" myHeader">Next generation digital banking</h1>
