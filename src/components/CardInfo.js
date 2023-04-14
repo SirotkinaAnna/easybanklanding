@@ -4,7 +4,7 @@ function CardInfo({ src, children, title, author, myClass }) {
             <img src={src} className={myClass} alt="..." />
             <div className="card-body h-50">
                 <p class="card-subtitle mb-2 text-muted myText">{author}</p>
-                <h5 class="card-title">{title}</h5>
+                <h3 class="card-title fs-5">{title}</h3>
                 <p className="card-text myText text-muted">
                     {children}
                 </p>
