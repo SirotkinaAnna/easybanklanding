@@ -17,7 +17,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <>
 
       <Navigation showModal={showModal} handleButtonClick={handleButtonClick} />
       {showModal && <Modal onClose={handleButtonClick} />}
@@ -26,7 +26,7 @@ function App() {
       <LatestArticles />
       <Contacts />
 
-    </div>
+    </>
   );
 }
 

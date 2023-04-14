@@ -10,9 +10,9 @@ function Modal({ onClose }) {
         }
     }, [])
     return ReactDOM.createPortal(
-        <div>
-            <div className="position-fixed bg-gradient" onClick={onClose}></div>
-            <div className="position-fixed modal-inside rounded-3">
+        <>
+            <div className="mybg-gradient" onClick={onClose}></div>
+            <div className=" modal-inside rounded-3">
                 <div className="py-4">
                     <p>Home</p>
                     <p>About</p>
@@ -21,7 +21,7 @@ function Modal({ onClose }) {
                     <p>Careers</p>
                 </div>
             </div>
-        </div>,
+        </>,
         document.querySelector('.modal-container')
 
     )
